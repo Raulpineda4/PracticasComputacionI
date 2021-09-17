@@ -10,18 +10,21 @@ int main() {
     char operation;
     std::cout << "Este programa hace operaciones basicas entre dos numeros.\n";
 
-    std::cout << "Primer numero: \n";
-    std::cin >> numOne;
-    std::cout << "Operacion\n";
-    std::cin >> operation;
-    std::cout << "Segundo numero: \n";
-    std::cin >> numTwo;
+    std::cout << "Primer numero: ";
+    std::cin >>  numOne;
+    std::cout << "Operacion";
+    std::cin >>  operation;
+    std::cout << "Segundo numero: ";
+    std::cin >>  numTwo;
     if (operation == '+') {total = numOne + numTwo;}
     if (operation == '-') {total = numOne - numTwo;}
     if (operation == '/') {total = numOne / numTwo;}
     if (operation == '%') {total = numOne % numTwo;}
     if (operation == '*') {total = numOne * numTwo;}
 
-    std::cout << "Resultado: " << total << std::endl;
+
+    std::cout << "Resultado: " << std::endl;
+    std::cout << numOne << operation << numTwo << "="   << total << std::endl;
     return 0;
 }
+
