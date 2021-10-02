@@ -29,7 +29,7 @@ int main()
 {
     // Definir el número de variables de nuestro sistema
     const int variables = 3;
-    // El número de variables nos lo dira el numero de columnas  más su solición para cada ecuación
+    // El número de variables nos lo dice el numero de columnas  más su solición para cada ecuación
     const int columnas = variables + 1;
 
     // Iniciamos la matriz que vamos a ocupar
