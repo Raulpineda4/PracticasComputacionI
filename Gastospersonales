@@ -1,0 +1,24 @@
+/*
+ * Author: Raul Pineda
+ * pinedaurbinaraul@gmail.com
+ * Sept 15,2021
+ */
+
+#include <iostream>
+int main() {
+    int numOne = 1;
+    char operation;
+    std::cout << "Este progrma te sirve para administrar tus gastos personales.\n";
+    std::cout << "Total de sueldo:";
+    std::cin >> numOne;
+
+    std::cout << "Lo que debes destinar para gastos personales es: " << std::endl;
+    std::cout << numOne * 0.30;
+
+    std::cout << "\n De los cuales te recomendamos gastes en ropa:" << std::endl;
+    std::cout << numOne * 0.15;
+
+    std::cout << "\nY para entretenimiento te recomendamos usar:" << std::endl;
+    std::cout << numOne * 0.15;
+    return 0;
+}
